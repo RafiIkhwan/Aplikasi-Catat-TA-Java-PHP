@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_white"
+    tools:context=".add_data_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/header_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/exTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textColor="@color/black"
+                    android:text="Tambah Data" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textSize="16sp"
+                        android:textColor="@color/blckdoc"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Nama Siswa  "/>
+
+                    <EditText
+                        android:id="@+id/et_pemilik"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textSize="12sp"
+                        android:padding="5dp"
+                        android:textColor="@color/blckdoc"
+                        android:background="@drawable/form_ui"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="16sp"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/blckdoc"
+                            android:text="No Induk"/>
+
+                        <EditText
+                            android:id="@+id/et_no_induk"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:inputType="number"
+                            android:textSize="12sp"
+                            android:padding="5dp"
+                            android:textColor="@color/blckdoc"
+                            android:background="@drawable/form_ui"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textSize="16sp"
+                            android:textColor="@color/blckdoc"
+                            android:gravity="center_vertical"
+                            android:text="Tahun"/>
+
+                        <EditText
+                            android:id="@+id/et_angkatan"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:textSize="12sp"
+                            android:padding="5dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/blckdoc"
+                            android:background="@drawable/form_ui"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/blckdoc"
+                        android:gravity="center_vertical"
+                        android:text="Judul"/>
+
+                    <EditText
+                        android:id="@+id/et_judul"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textSize="12sp"
+                        android:padding="5dp"
+                        android:textColor="@color/blckdoc"
+                        android:background="@drawable/form_ui"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textSize="16sp"
+                        android:textColor="@color/blckdoc"
+                        android:gravity="center_vertical"
+                        android:text="Tempat PKL"/>
+
+                    <EditText
+                        android:id="@+id/et_tempat"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textSize="12sp"
+                        android:padding="5dp"
+                        android:textColor="@color/blckdoc"
+                        android:background="@drawable/form_ui"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textSize="16sp"
+                        android:textColor="@color/blckdoc"
+                        android:gravity="center_vertical"
+                        android:text="Pembimbing  "/>
+
+                    <EditText
+                        android:id="@+id/et_pembimbing"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textSize="12sp"
+                        android:padding="5dp"
+                        android:textColor="@color/blckdoc"
+                        android:background="@drawable/form_ui"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/bluedoc"
+                android:fontFamily="@font/montserrat_black"
+                android:textColor="@color/light_white"
+                android:text="SIMPAN DATA"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

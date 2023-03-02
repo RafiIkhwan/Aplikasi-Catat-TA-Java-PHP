@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/data_ui"
+        android:padding="12dp">
+
+        <!--        android:id="@+id/tvPemilik"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_white"
+                android:textSize="13sp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:text="Pemilik              :"
+                android:layout_weight="1.8"/>
+
+
+            <TextView
+                android:id="@+id/tvPemilik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/graydoc"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Syahrul Ady Pratama"
+                android:textSize="14sp"
+                android:layout_weight="1.2"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/off_white"/>
+
+        <!--        android:id="@+id/tvNoInduk"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:weightSum="3"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_white"
+                android:textSize="13sp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:text="No Induk           :"
+                android:layout_weight="1.8"/>
+
+
+            <TextView
+                android:id="@+id/tvNoInduk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/graydoc"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:text="211115744"
+                android:layout_weight="1.2"/>
+
+
+        </LinearLayout>
+
+        <!--        android:id="@+id/tvJudul"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_white"
+                android:textSize="13sp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:text="Judul                  :"
+                android:layout_weight="1.8"/>
+
+            <TextView
+                android:id="@+id/tvJudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/graydoc"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:text="Aplikasi Buku Tamu"
+                android:layout_weight="1.2"/>
+
+        </LinearLayout>
+
+        <!--        android:id="@+id/tvPembimbing"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_white"
+                android:textSize="13sp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:text="Pembimbing   :"
+                android:layout_weight="1.8"/>
+
+            <TextView
+                android:id="@+id/tvPembimbing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/graydoc"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:text="Pak Agus Suratna"
+                android:layout_weight="1.2"/>
+
+        </LinearLayout>
+
+        <!--        android:id="@+id/tvTempatPKL"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_white"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:text="Tempat PKL     :"
+                android:layout_weight="1.8"/>
+
+
+            <TextView
+                android:id="@+id/tvTempatPKL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/graydoc"
+                android:textSize="14sp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:text="SMKN 1 Cimahi"
+                android:layout_weight="1.2"/>
+
+
+        </LinearLayout>
+
+        <!--        android:id="@+id/tvAngkatan"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_white"
+                android:textSize="13sp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:text="Tahun                :"
+                android:layout_weight="1.8"/>
+
+            <TextView
+                android:id="@+id/tvAngkatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/graydoc"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:text="2022"
+                android:layout_weight="1.2"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/off_white"
+            android:textSize="0sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
